@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tim\'s Paint</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- names -->
+    <string name="color">Color</string>
+    <string name="Mcolor">Change Color</string>
+    <string name="redo_pic">redo</string>
+    <string name="undo_pic">undo</string>
+    <string name="string_undo">Undo</string>
+    <string name="string_redo">Redo</string>
+    <string name="string_clear">Clear</string>
+    <string name="string_save">Save</string>
+
+    <!-- pen size -->
+    <string name="ftp">Fine Tip Pen</string>
+    <string name="normal">Normal Tip Pen</string>
+    <string name="big">Big Tip Pen</string>
+    <string name="custom">Custom Tip Pen</string>
+    <string name="change">Change Size</string>
+    <string name="string_pen">Pen</string>
+
+</resources>
