@@ -92,8 +92,11 @@ public class MyView extends View{
     }
 
     public String file_save(Context context){//this will take the bitmap saved in cache and will put it in the gallery and return a copy of the bitmap
-        return  MediaStore.Images.Media.insertImage(getContext().getContentResolver(),
-                getDrawingCache(),UUID.randomUUID().toString()+".png", "Paint Fun");
+             // MediaStore.Images.Media.insertImage(getContentResolver(), yourBitmap, yourTitle , yourDescription);
+        setDrawingCacheEnabled(true);
+       return MediaStore.Images.Media.insertImage(context.getContentResolver(), getDrawingCache(), "Test.png" ,  "Paint Fun");
+   //     return  MediaStore.Images.Media.insertImage(getContext().getContentResolver(),
+     //           getDrawingCache(),UUID.randomUUID().toString()+".png", "Paint Fun");
     }//http://developer.android.com/reference/android/provider/MediaStore.Images.Media.html
 
     public void color_change(int color){//this will change the color of the pen

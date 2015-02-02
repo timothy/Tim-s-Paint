@@ -6,28 +6,28 @@
         jumboMode="false"
         revision="21.1.2"
         sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="D:\Android\ns\Tim&apos;sPaint\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-aa16b3cf885393ef74ba8407c65bcf20627dd05b.jar" />
+        <dex dex="D:\Android\ns\Tim-s-Paint\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-aa16b3cf885393ef74ba8407c65bcf20627dd05b.jar" />
     </item>
     <item
-        jar="D:\Android\ns\Tim&apos;sPaint\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="D:\Android\ns\Tim&apos;sPaint\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-cb6ccec65590ba622396d5058846764a7407e7ab.jar" />
-    </item>
-    <item
-        jar="D:\Android\ns\Tim&apos;sPaint\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="D:\Android\ns\Tim&apos;sPaint\app\build\intermediates\pre-dexed\debug\classes-23215437bedd9342dd7bd862967114b43b19d413.jar" />
-    </item>
-    <item
-        jar="D:\Android\ns\Tim&apos;sPaint\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jar="D:\Android\ns\Tim-s-Paint\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="D:\Android\ns\Tim&apos;sPaint\app\build\intermediates\pre-dexed\debug\classes-789ab2ab2f82eee134303215068f56cf3bbb7e19.jar" />
+        <dex dex="D:\Android\ns\Tim-s-Paint\app\build\intermediates\pre-dexed\debug\classes-c774a818feafe81df27fb4d209f90134275ba9aa.jar" />
+    </item>
+    <item
+        jar="D:\Android\ns\Tim-s-Paint\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="D:\Android\ns\Tim-s-Paint\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-7582bd5c306ee4b58dea9687647c644a49c21d64.jar" />
+    </item>
+    <item
+        jar="D:\Android\ns\Tim-s-Paint\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="D:\Android\ns\Tim-s-Paint\app\build\intermediates\pre-dexed\debug\classes-f1db493aabd2f997ded9e8fb1d110cfe5cb89a02.jar" />
     </item>
 
 </items>
