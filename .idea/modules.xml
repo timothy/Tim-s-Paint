@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Tim'sPaint.iml" filepath="$PROJECT_DIR$/Tim'sPaint.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tim-s-Paint.iml" filepath="$PROJECT_DIR$/Tim-s-Paint.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Tim-s-Paint.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Tim-s-Paint.app.iml" />
     </modules>
   </component>
 </project>
-

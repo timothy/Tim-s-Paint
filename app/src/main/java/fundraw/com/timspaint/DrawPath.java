@@ -14,7 +14,7 @@ public class DrawPath {
     public int color;
 
 
-    DrawPath(Path p, Paint pnt, int color, float size){
+    DrawPath(Path p, Paint pnt, int color, float size) {
         this.color = color;
         this.size = size;
         this.paint = pnt;

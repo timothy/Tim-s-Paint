@@ -1,49 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_gravity="center">
+    android:layout_gravity="center"
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <!-- Top Row -->
         <LinearLayout
             android:id="@+id/paint_colors"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal" >
+            android:orientation="horizontal">
 
             <ImageButton
+                android:id="@+id/one"
                 android:layout_width="@dimen/color_dim"
                 android:layout_height="@dimen/color_dim"
-                android:background="#FF660000"
                 android:layout_margin="2dp"
+                android:background="#FF660000"
                 android:contentDescription="@string/color"
-                android:src="@drawable/color_btn"
-                android:id="@+id/one"/>
+                app:srcCompat="@drawable/color_btn" />
 
             <ImageButton
+                android:id="@+id/two"
                 android:layout_width="@dimen/color_dim"
                 android:layout_height="@dimen/color_dim"
                 android:layout_margin="2dp"
                 android:background="#FFFF0000"
                 android:contentDescription="@string/color"
-                android:src="@drawable/color_btn"
-                android:id="@+id/two" />
+                app:srcCompat="@drawable/color_btn" />
 
             <ImageButton
+                android:id="@+id/three"
                 android:layout_width="@dimen/color_dim"
                 android:layout_height="@dimen/color_dim"
                 android:layout_margin="2dp"
                 android:background="#FFFF6600"
                 android:contentDescription="@string/color"
-                android:src="@drawable/color_btn"
-                android:id="@+id/three" />
-
+                app:srcCompat="@drawable/color_btn" />
 
 
         </LinearLayout>
@@ -51,35 +52,34 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal" >
+            android:orientation="horizontal">
 
             <ImageButton
+                android:id="@+id/four"
                 android:layout_width="@dimen/color_dim"
                 android:layout_height="@dimen/color_dim"
                 android:layout_margin="2dp"
                 android:background="#FF0000FF"
                 android:contentDescription="@string/color"
-                android:src="@drawable/color_btn"
-                android:id="@+id/four"/>
+                app:srcCompat="@drawable/color_btn" />
 
             <ImageButton
+                android:id="@+id/five"
                 android:layout_width="@dimen/color_dim"
                 android:layout_height="@dimen/color_dim"
                 android:layout_margin="2dp"
                 android:background="#FF990099"
                 android:contentDescription="@string/color"
-                android:src="@drawable/color_btn"
-                android:id="@+id/five"/>
+                app:srcCompat="@drawable/color_btn" />
 
             <ImageButton
+                android:id="@+id/six"
                 android:layout_width="@dimen/color_dim"
                 android:layout_height="@dimen/color_dim"
                 android:layout_margin="2dp"
                 android:background="#FFFF6666"
                 android:contentDescription="@string/color"
-                android:src="@drawable/color_btn"
-                android:id="@+id/six"/>
-
+                app:srcCompat="@drawable/color_btn" />
 
 
         </LinearLayout>
@@ -87,37 +87,34 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal" >
+            android:orientation="horizontal">
 
             <ImageButton
+                android:id="@+id/seven"
                 android:layout_width="@dimen/color_dim"
                 android:layout_height="@dimen/color_dim"
                 android:layout_margin="2dp"
                 android:background="#FF787878"
                 android:contentDescription="@string/color"
-                android:src="@drawable/color_btn"
-                android:id="@+id/seven"/>
+                app:srcCompat="@drawable/color_btn" />
 
             <ImageButton
+                android:id="@+id/eight"
                 android:layout_width="@dimen/color_dim"
                 android:layout_height="@dimen/color_dim"
                 android:layout_margin="2dp"
                 android:background="#FF000000"
                 android:contentDescription="@string/color"
-                android:src="@drawable/color_btn"
-                android:id="@+id/eight"/>
+                app:srcCompat="@drawable/color_btn" />
 
             <ImageButton
+                android:id="@+id/nine"
                 android:layout_width="@dimen/color_dim"
                 android:layout_height="@dimen/color_dim"
                 android:layout_margin="2dp"
                 android:background="#FF009900"
                 android:contentDescription="@string/color"
-                android:src="@drawable/color_btn"
-                android:id="@+id/nine"/>
-
-
-
+                app:srcCompat="@drawable/color_btn" />
 
 
         </LinearLayout>
@@ -125,34 +122,34 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal" >
+            android:orientation="horizontal">
 
             <ImageButton
+                android:id="@+id/ten"
                 android:layout_width="@dimen/color_dim"
                 android:layout_height="@dimen/color_dim"
                 android:layout_margin="2dp"
                 android:background="#FF009999"
                 android:contentDescription="@string/color"
-                android:src="@drawable/color_btn"
-                android:id="@+id/ten"/>
+                app:srcCompat="@drawable/color_btn" />
 
             <ImageButton
+                android:id="@+id/eleven"
                 android:layout_width="@dimen/color_dim"
                 android:layout_height="@dimen/color_dim"
                 android:layout_margin="2dp"
                 android:background="#FFFFFFFF"
                 android:contentDescription="@string/color"
-                android:src="@drawable/color_btn"
-                android:id="@+id/eleven"/>
+                app:srcCompat="@drawable/color_btn" />
 
             <ImageButton
+                android:id="@+id/twelve"
                 android:layout_width="@dimen/color_dim"
                 android:layout_height="@dimen/color_dim"
                 android:layout_margin="2dp"
                 android:background="#FFFFCC00"
                 android:contentDescription="@string/color"
-                android:src="@drawable/color_btn"
-                android:id="@+id/twelve"/>
+                app:srcCompat="@drawable/color_btn" />
 
 
         </LinearLayout>

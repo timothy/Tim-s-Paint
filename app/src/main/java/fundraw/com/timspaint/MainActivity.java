@@ -1,18 +1,11 @@
 package fundraw.com.timspaint;
 
-import android.app.AlertDialog;
-import android.app.Dialog;
-import android.content.DialogInterface;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+// import android.support.v7.app.ActionBarActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.DisplayMetrics;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
@@ -21,12 +14,11 @@ import android.widget.Toast;
  * Created by tbrad_000 on 1/28/2015.
  */
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
 
     public static MyView myview;
-    private LinearLayout viewlayout;
-
     MyButtons myButtons = new MyButtons();
+    private LinearLayout viewlayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,11 +30,10 @@ public class MainActivity extends ActionBarActivity {
         int width = dm.widthPixels;
         int height = dm.heightPixels;
         myview = new MyView(this, null, width, height);
-        viewlayout = (LinearLayout)findViewById(R.id.viewlayout);
+        viewlayout = (LinearLayout) findViewById(R.id.viewlayout);
         viewlayout.addView(myview);
         myview.setMainActivity(MainActivity.this);
     }
-
 
 
     @Override
@@ -66,42 +57,28 @@ public class MainActivity extends ActionBarActivity {
                     "Settings",
                     Toast.LENGTH_LONG).show();
             return true;
-        }
-
-        else if(id == R.id.menu_size){
-        this.myButtons.sizeChanger(this.viewlayout, this.myview);
+        } else if (id == R.id.menu_size) {
+            this.myButtons.sizeChanger(this.viewlayout, myview);
             return true;
-        }
-
-        else if(id == R.id.menu_color){
-            this.myButtons.color_button(this.viewlayout, this.myview);
+        } else if (id == R.id.menu_color) {
+            this.myButtons.color_button(this.viewlayout, myview);
             return true;
-        }
-
-        else if(id == R.id.menu_undo){
-            this.myButtons.undo_btn(this.viewlayout, this.myview);
+        } else if (id == R.id.menu_undo) {
+            this.myButtons.undo_btn(this.viewlayout, myview);
             return true;
-        }
-
-        else if(id == R.id.menu_redo){
-           this.myview.redo();
+        } else if (id == R.id.menu_redo) {
+            myview.redo();
             return true;
-        }
-
-        else if(id == R.id.menu_clear){
-            this.myButtons.clear_btn(this.viewlayout, this.myview);
+        } else if (id == R.id.menu_clear) {
+            this.myButtons.clear_btn(this.viewlayout, myview);
             return true;
-        }
-
-        else if(id == R.id.menu_save){
-            this.myButtons.save_btn(this.viewlayout, this.myview);
+        } else if (id == R.id.menu_save) {
+            this.myButtons.save_btn(this.viewlayout, myview);
             return true;
         }
 
         return super.onOptionsItemSelected(item);
     }
-
-
 
 
 }
